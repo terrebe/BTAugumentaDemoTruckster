@@ -21,7 +21,7 @@
   -->
 
 <resources>
-	<string name="app_name">Augumenta Gesture Demo</string>
+	<string name="app_name">Gesture Demo Using Augumenta</string>
 	<string name="menu_button_tasks">Step through the inspection program</string>
 	<string name="menu_button_fault_codes">View diagnostic codes</string>
   <string name="menu_button_about_augumenta">About Augumenta</string>
