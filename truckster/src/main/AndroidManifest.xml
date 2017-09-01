@@ -34,7 +34,6 @@
 		android:theme="@style/AppTheme"
 		tools:replace="android:icon">
 
-
 		<meta-data
 			android:name="com.augumenta.aip.LicenseKey"
 			android:value="@string/augumenta_sdk_license_key"/>
