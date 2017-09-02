@@ -63,7 +63,7 @@ public class MenuFragment extends BaseFragment {
 		CompoundButton aboutAugumentaButton = (CompoundButton) rootView.findViewById(R.id.menu_button_about_augumenta);
 		aboutAugumentaButton.setOnClickListener(mMenuButtonClickListener);
 
-		//Added a new button to the main menu screen here
+		//Added a new button to the main menu screen
 		CompoundButton testCaseButton = (CompoundButton) rootView.findViewById(R.id.menu_button_test_case);
 		testCaseButton.setOnClickListener(mMenuButtonClickListener);
 
