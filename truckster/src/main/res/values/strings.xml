@@ -25,6 +25,7 @@
 	<string name="menu_button_tasks">Step through the inspection program</string>
 	<string name="menu_button_fault_codes">View diagnostic codes</string>
   <string name="menu_button_about_augumenta">About Augumenta</string>
+	<string name="menu_button_test_case">Test Case</string>
   <string name="task_title_text">Inspection tasks</string>
 	<string name="indicator_next">Next:</string>
 	<string name="indicator_back">Back:</string>

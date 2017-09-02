@@ -36,7 +36,7 @@ public final class R {
         public static final int highlight_reset = 0x7f0a0023;
     }
     public static final class drawable {
-        public static final int transparent = 0x7f020067;
+        public static final int transparent = 0x7f020068;
     }
     public static final class string {
         public static final int app_name = 0x7f050014;

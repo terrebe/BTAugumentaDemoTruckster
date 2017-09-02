@@ -1,7 +1,7 @@
-#Fri Sep 01 09:29:52 EDT 2017
-base.0=/Users/Ben/Documents/ar-proj/BTAugumentaDemoTruckster/truckster/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_8b9287f8d66e297d97d143d276ac166e735824e5
+#Fri Sep 01 15:49:21 EDT 2017
+base.0=C\:\\Users\\bryan\\AndroidStudioProjects\\BTAugumentaDemoTruckster\\truckster\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_149a9dc936d8ff62a35692534074f0e14a688009
 renamed.1=classes.dex
 renamed.0=classes2.dex
-file.1=/Users/Ben/Documents/ar-proj/BTAugumentaDemoTruckster/truckster/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_fae65a50e1eb9ef0fdb68125e175ff1108accd2e/classes.dex
-base.1=/Users/Ben/Documents/ar-proj/BTAugumentaDemoTruckster/truckster/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_fae65a50e1eb9ef0fdb68125e175ff1108accd2e
-file.0=/Users/Ben/Documents/ar-proj/BTAugumentaDemoTruckster/truckster/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_8b9287f8d66e297d97d143d276ac166e735824e5/classes.dex
+file.1=C\:\\Users\\bryan\\AndroidStudioProjects\\BTAugumentaDemoTruckster\\truckster\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_b6e95c8e1150a55d72297ba4171dff0dfcc60af2\\classes.dex
+base.1=C\:\\Users\\bryan\\AndroidStudioProjects\\BTAugumentaDemoTruckster\\truckster\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_b6e95c8e1150a55d72297ba4171dff0dfcc60af2
+file.0=C\:\\Users\\bryan\\AndroidStudioProjects\\BTAugumentaDemoTruckster\\truckster\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_149a9dc936d8ff62a35692534074f0e14a688009\\classes.dex

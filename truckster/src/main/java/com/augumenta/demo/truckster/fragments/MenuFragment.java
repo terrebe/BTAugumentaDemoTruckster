@@ -63,6 +63,10 @@ public class MenuFragment extends BaseFragment {
 		CompoundButton aboutAugumentaButton = (CompoundButton) rootView.findViewById(R.id.menu_button_about_augumenta);
 		aboutAugumentaButton.setOnClickListener(mMenuButtonClickListener);
 
+		//Added a new button to the main menu screen here
+		CompoundButton testCaseButton = (CompoundButton) rootView.findViewById(R.id.menu_button_test_case);
+		testCaseButton.setOnClickListener(mMenuButtonClickListener);
+
 		return rootView;
 	}
 
@@ -107,6 +111,8 @@ public class MenuFragment extends BaseFragment {
 				case R.id.menu_button_about_augumenta:
 					showFragment(FaultCodeDetailFragment.newInstance("file:///android_asset/about/aboutAugumenta.html"));
 					break;
+				case R.id.menu_button_test_case:
+					showFragment(FaultCodeDetailFragment.newInstance("file:///android_asset/testCasePage/testCaseWebPage.html"));
 			}
 		}
 	};

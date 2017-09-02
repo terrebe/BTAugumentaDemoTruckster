@@ -28,8 +28,12 @@ import android.os.SystemClock;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.MotionEvent;
+import android.widget.Toast;
 
 import com.augumenta.agapi.AugumentaManager;
+import com.augumenta.agapi.HandPath;
+import com.augumenta.agapi.HandPathEvent;
+import com.augumenta.agapi.HandPathListener;
 import com.augumenta.agapi.HandPose;
 import com.augumenta.agapi.HandPoseEvent;
 import com.augumenta.agapi.HandPoseListener;
@@ -37,7 +41,9 @@ import com.augumenta.agapi.HandTransition;
 import com.augumenta.agapi.HandTransitionEvent;
 import com.augumenta.agapi.HandTransitionListener;
 import com.augumenta.agapi.Poses;
+import com.augumenta.demo.truckster.MainActivity;
 import com.augumenta.demo.truckster.R;
+import com.augumenta.demo.truckster.fragments.TaskFragment;
 
 /**
  * PoseLayout provides interaction capabilities for layouts child Views.
@@ -56,6 +62,7 @@ public class PoseLayout extends PoseCursorLayout implements HandPoseListener {
 	// Poses used hover hovering and dragging/clicking
 	public int POSE_HOVER = Poses.P001;
 	public int POSE_TOUCH = Poses.P141;
+	HandPath swipe_horizontal = new HandPath(new HandPose(Poses.M001), HandPath.Path.SWIPE_HORIZONTAL);
 
 	public PoseLayout(Context context) {
 		this(context, null, -1);
@@ -85,6 +92,7 @@ public class PoseLayout extends PoseCursorLayout implements HandPoseListener {
 		detman.registerListener(touchDownListener, new HandPose(POSE_HOVER, HandPose.HandSide.ALL, 0, 90), new HandPose(POSE_TOUCH, HandPose.HandSide.ALL, 0, 90));
 		detman.registerListener(this, POSE_HOVER, HandPose.HandSide.ALL, 0, 90);
 		detman.registerListener(this, POSE_TOUCH, HandPose.HandSide.ALL, 0, 90);
+
 	}
 
 	/**

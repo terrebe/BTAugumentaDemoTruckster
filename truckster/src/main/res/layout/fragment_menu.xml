@@ -71,6 +71,17 @@
 			android:src="@drawable/menu_about_augumenta"
 			android:text="@string/menu_button_about_augumenta"
 			android:layout_gravity="fill" />
+
+		<com.augumenta.demo.truckster.views.CompoundButton
+			android:id="@+id/menu_button_test_case"
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:padding="10dp"
+			android:background="@drawable/button_background"
+			android:src="@drawable/menu_test_triforce"
+			android:text="Test Menu"
+			android:layout_gravity="fill" />
 	</LinearLayout>
 
 	<com.augumenta.demo.truckster.views.PoseIndicator
