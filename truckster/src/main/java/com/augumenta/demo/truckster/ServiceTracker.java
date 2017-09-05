@@ -143,6 +143,11 @@ public class ServiceTracker {
                     new SubTaskItem("Checkpoint", "Verify that no suspension components have been fixed by welding.", -1),
 
             }),
+			new TaskItem("Test Addition", new SubTaskItem[]{
+					new SubTaskItem("Test addition 1", "This is a test item", -1),
+					new SubTaskItem("Test addition 2", "This is also a test item", -1),
+					new SubTaskItem("Test addition 3", "This is a test image", R.drawable.)
+			}),
 	};
 	public static class TaskItem {
 		public static final int STATUS_PENDING = 1;
